@@ -4,11 +4,11 @@ import org.testng.annotations.Test;
 
 import BaseClass.BaseClass;
 
-public class ClassB extends BaseClass {
+public class ClassBTest extends BaseClass {
 	
 	@Test(groups = "odd")
 	public void B1() throws InterruptedException {
-		BaseClass.driver.navigate().to("https://www.moglix.com/");
+		BaseClass.driver.navigate().to("http://localhost:8080/login?from=%2F");
 		Thread.sleep(3000);
 	}
 	

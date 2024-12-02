@@ -6,12 +6,12 @@
 </listeners>
   <test  name="T1">
     <classes>
-      <class name="forjenkins.ClassB"/>
+      <class name="forjenkins.ClassBTest"/>
     </classes>
   </test> <!-- Test -->
    <test  name="T2">
     <classes>
-      <class name="forjenkins.ClassA"/>
+      <class name="forjenkins.ClassATest"/>
     </classes>
   </test> <!-- Test -->
   
