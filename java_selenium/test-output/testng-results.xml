@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-02T12:31:11 IST" name="Suite" finished-at="2024-12-02T12:32:08 IST" duration-ms="57004">
+    <groups>
+      <group name="even">
+        <method signature="ClassB.B2()[pri:0, instance:forjenkins.ClassB@235834f2]" name="B2" class="forjenkins.ClassB"/>
+        <method signature="ClassA.A2()[pri:0, instance:forjenkins.ClassA@302552ec]" name="A2" class="forjenkins.ClassA"/>
+      </group> <!-- even -->
+      <group name="odd">
+        <method signature="ClassB.B1()[pri:0, instance:forjenkins.ClassB@235834f2]" name="B1" class="forjenkins.ClassB"/>
+        <method signature="ClassA.A1()[pri:0, instance:forjenkins.ClassA@302552ec]" name="A1" class="forjenkins.ClassA"/>
+      </group> <!-- odd -->
+    </groups>
+    <test started-at="2024-12-02T12:31:11 IST" name="T2" finished-at="2024-12-02T12:32:08 IST" duration-ms="57004">
+      <class name="forjenkins.ClassA">
+        <test-method signature="A1()[pri:0, instance:forjenkins.ClassA@302552ec]" started-at="2024-12-02T12:31:11 IST" name="A1" finished-at="2024-12-02T12:31:58 IST" duration-ms="46307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A1 -->
+        <test-method signature="A2()[pri:0, instance:forjenkins.ClassA@302552ec]" started-at="2024-12-02T12:32:00 IST" name="A2" finished-at="2024-12-02T12:32:08 IST" duration-ms="8601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2 -->
+      </class> <!-- forjenkins.ClassA -->
+    </test> <!-- T2 -->
+  </suite> <!-- Suite -->
+</testng-results>
